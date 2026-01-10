@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from './AuthContext';
 import { db } from './firebase';
 import { collection, query, where, getDocs } from 'firebase/firestore';
-import './styles/Dashboard.css';
 
 const StudentDashboard = () => {
   const { currentUser, logout } = useContext(AuthContext);

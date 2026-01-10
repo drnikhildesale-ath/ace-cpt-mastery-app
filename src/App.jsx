@@ -3,7 +3,6 @@ import { AuthProvider, AuthContext } from './AuthContext';
 import Login from './Login';
 import StudentDashboard from './StudentDashboard';
 import AdminDashboard from './AdminDashboard';
-import './App.css';
 
 const AppContent = () => {
   const { currentUser, loading } = useContext(AuthContext);

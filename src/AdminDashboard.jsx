@@ -2,7 +2,6 @@ import React, { useContext, useState } from 'react';
 import { AuthContext } from './AuthContext';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from './firebase';
-import './styles/Dashboard.css';
 
 const AdminDashboard = () => {
   const { currentUser, logout } = useContext(AuthContext);
